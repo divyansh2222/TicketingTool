@@ -8,6 +8,7 @@ import ViewTicket from "./pages/ViewTicket";
 import Help from "./pages/TicketPage";
 import Notifications from "./component/Notification";
 import UserNotificationList from "./component/UserNotificationlist";
+
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
