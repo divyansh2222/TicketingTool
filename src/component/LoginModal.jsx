@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
+import ticketingImage from "../assets/images/ticketing.jpg";
 export default function LoginModal({ closeModal, onLoginSuccess }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -91,7 +91,7 @@ export default function LoginModal({ closeModal, onLoginSuccess }) {
             Welcome to Ticketing Tool
           </h1>
           <div className="flex items-center justify-center">
-            <img className="h-60 w-60 sm:block hidden bg-transparent" src="src/assets/10124081.jpg" alt="" />
+            <img className="h-60 w-60 sm:block hidden bg-transparent" src={ticketingImage} alt="" />
           </div>
           <p className="text-center text-sm md:text-lg opacity-90 leading-relaxed">
             Experience seamless issue resolution. Connect with our dedicated support team.
