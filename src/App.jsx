@@ -7,7 +7,7 @@ import LoginModal from "./component/LoginModal";
 import ViewTicket from "./pages/ViewTicket";
 import Help from "./pages/TicketPage";
 import Notifications from "./component/Notification";
-import UserNotificationList from "./component/UserNotificationlist";
+import UserNotificationList from "./component/UserNotificationList";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
