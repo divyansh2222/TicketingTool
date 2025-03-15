@@ -38,6 +38,9 @@ function App() {
     navigate("/");
   };
 
+
+  // starting of the app
+
   return (
     <div className="min-h-screen flex flex-col text-gray-800">
       <Header isLoggedIn={isLoggedIn} handleLogout={handleLogout} />
